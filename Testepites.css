@@ -9,8 +9,8 @@ body{
 .forma_kezdolap{
     text-align: center;
     margin-top: 400px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 10px;
     max-width: auto;
     min-height: 300px;
@@ -74,16 +74,20 @@ nav a:hover {
     color: white
 }
 .forma{
-    margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 50px 150px;
+    margin-bottom: auto;
     min-width: 10px;
     max-width: auto;
     min-height: auto;
     max-height: auto;
-    padding: 5px;
+    padding: 20px;
     border: 1px solid none;
     background-color: rgb(29, 29, 29);
+}
+.formaz{
+    margin-top: -25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .formázások{
     font-weight: bold;
@@ -115,7 +119,14 @@ nav a:hover {
     max-height: auto;
     margin-top: 10px;
     border: 1px solid none;
- }  
+ }
+ div img{
+     float: left;
+     padding: 10px;
+}
+hr{
+    clear: both;
+} 
 #testepítes_p{
     min-width: 10px;
     max-width: auto;
@@ -130,6 +141,13 @@ nav a:hover {
     font-size: 10px;
     font-weight: inherit;
 }
+#copyrightk{
+    margin: 40px 100px;
+    text-align: end;
+    color: lightgray;
+    font-size: 10px;
+    font-weight: inherit;
+}
 .linkek{
     text-align: center;
     font-weight: bolder;
@@ -137,22 +155,28 @@ nav a:hover {
     text-decoration: none;
 }
 .p-k{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
+}
+ol{
+    text-align: center;
+}
+ol img{
+    margin: auto 20px;
 }
 .dt-k{
     text-indent: 5px;
     color: rgb(252, 125, 125);
 }
 .dh-k{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
     text-indent: 10px;
     text-align: justify;
 }
 .táblázat{
-    margin-left: 90px;
-    margin-left: 90px;
+    margin-left: auto;
+    margin-left: auto;
     text-align: center;
 }
