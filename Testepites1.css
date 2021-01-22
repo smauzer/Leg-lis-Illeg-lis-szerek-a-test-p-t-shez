@@ -21,6 +21,13 @@ nav{
 nav ul li{
     display: inline-block;
 }
+.cl{
+    text-decoration: none;
+    border: 1px solid none;
+    background-color: rgb(42, 97, 42);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
 .Testépítés{
     text-decoration: none;
     border: 1px solid none;
